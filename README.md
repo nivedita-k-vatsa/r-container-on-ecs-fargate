@@ -1,4 +1,5 @@
 Last updated: August 12, 2022
+Author: Nivedita Vatsa
 
 ## Running R Scripts on Fargate
 
@@ -129,7 +130,7 @@ This step is optional, but recommended for ensuring that the container works as 
 + See [here](https://aws.amazon.com/premiumsupport/knowledge-center/ec2-instance-access-s3-bucket/) for instructions on granting an EC2 instance access to an S3 bucket.
 + See [here](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html) for instructions on configuring AWS CLI on your machine to interact with AWS.
 
-Also, see [here](https://urban-institute.atlassian.net/wiki/spaces/RPP/pages/1883308047/Using+Docker+on+EC2) (internal to Urban Institute) for detailed instructions on using Docker on an EC2 instance.
+Also, see [REDACTED] for detailed instructions on using Docker on an EC2 instance.
 
 Navigate to the folder where the Dockerfile is saved and build the Docker container by running the following file.  The `-t` flag allows us to tag the container.  In this case, I tagged it as `r-ecs`.  The `.` specifies that the Dockerfile is in the current directory.
 ```
