@@ -1,4 +1,4 @@
-Last updated: August 12, 2022
+Last updated: August 12, 2022  
 Author: Nivedita Vatsa
 
 ## Running R Scripts on Fargate
